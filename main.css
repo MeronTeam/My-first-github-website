@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0c0636;
+}
+
+.header {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    height:3.5rem;
+}
+
+.logo {
+    text-transform: capitalize;
+    font-family: rubik maps;
+    float: right;
+    padding: 0.5rem;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+
+a {
+    display:inline-block;
+    /* width: 20px; */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    /* margin: 6px; */
+    font-size: 19px;
+    height: 100%;
+    padding: 17px 20px;
+}
+
+li a:hover {
+    color: red;
+    transition: color 0.9s;
+    background-color: #111;
+}
+/* HOME */
+.home {
+    align-items: center;
+}
+
+.b-img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: -1;
+} 
+
+.home p {
+    margin-left: 57%;
+    font-size: 1.5rem;
+    color: gray;
+}
+/* LANGUAGES  */
+
+
+
+.languages {
+    width: 100%;
+    height: 20rem;
+}
+
+.h2 {
+    margin: 10rem 0 0 5rem;
+    width: 40%;
+    display: block;
+    justify-content: center;
+}
+
+.languages .arrow {
+    margin-left: 2rem;
+    width: 16rem;
+    height: 11rem;
+    
+}
+
+.lang-left {
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    color: #fff;
+    font-size: 3.3rem;
+}
+.images {
+    float: right;
+}
+.images img {
+    width: 7rem;
+    height: 7rem;
+    margin: 0.5rem;
+}
+
+
+/* About */
+
+.about {
+    padding-top: 5rem;
+    text-align: center;
+    margin-bottom: 9rem;
+}
+
+.about h1 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.about p {
+    margin: 3rem 1rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* Footer */
+
+.footer {
+    padding-left: 9rem;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    /* text-align: center; */
+    background-color: #11071F;
+    color: #fff;
+    font-family: Comfortaa;
+    text-transform: capitalize;
+}
+
+.f-h1 {
+    margin-bottom: 3rem;
+}
+
+.footer p {
+    margin: 30px;
+    margin-left: 0;
+    color: #C189E3;
+}
+
+#ab {
+    color: #fff;
+    font-size: 15px;
+    margin-right:19rem;
+    margin-bottom: 3rem;
+}
